@@ -18,6 +18,7 @@ export type Database = {
         Row: {
           created_at: string
           email: string
+          email_status: string
           enquiry_type: string
           form_type: string
           full_name: string
@@ -25,10 +26,12 @@ export type Database = {
           message: string
           organisation: string | null
           phone: string
+          route_to: string
         }
         Insert: {
           created_at?: string
           email: string
+          email_status?: string
           enquiry_type: string
           form_type: string
           full_name: string
@@ -36,10 +39,12 @@ export type Database = {
           message: string
           organisation?: string | null
           phone: string
+          route_to?: string
         }
         Update: {
           created_at?: string
           email?: string
+          email_status?: string
           enquiry_type?: string
           form_type?: string
           full_name?: string
@@ -47,6 +52,7 @@ export type Database = {
           message?: string
           organisation?: string | null
           phone?: string
+          route_to?: string
         }
         Relationships: []
       }

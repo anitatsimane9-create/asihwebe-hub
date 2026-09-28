@@ -1,0 +1,1 @@
+ALTER TABLE public.enquiries ADD COLUMN IF NOT EXISTS route_to text NOT NULL DEFAULT 'asihwebe@phakama-marketplace.co.za', ADD COLUMN IF NOT EXISTS email_status text NOT NULL DEFAULT 'pending_email_setup';
