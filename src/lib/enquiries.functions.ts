@@ -25,6 +25,9 @@ export const submitEnquiry = createServerFn({ method: "POST" })
       organisation: data.organisation || null,
       enquiry_type: data.enquiryType,
       message: data.message,
+      // Interim routing destination. Email delivery activates once a sender domain is configured.
+      route_to: "asihwebe@phakama-marketplace.co.za",
+      email_status: "pending_email_setup",
     });
     if (error) throw new Error("We could not submit your enquiry. Please try again.");
     return { success: true };
