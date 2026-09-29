@@ -67,6 +67,7 @@
   --color-brand-gold-hover: var(--brand-gold-hover);
   --color-brand-gold-soft: var(--brand-gold-soft);
   --color-brand-orange: var(--brand-orange);
+  --color-whatsapp: oklch(0.52 0.13 150);
 }
 
 :root {
