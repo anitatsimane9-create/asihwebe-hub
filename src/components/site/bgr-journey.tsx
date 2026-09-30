@@ -18,7 +18,7 @@ export function BgrJourney() {
           <p className="text-xs font-bold text-brand-orange">OPTION 1</p>
           <h3 className="mt-1 font-display text-xl font-bold text-brand-navy">Scan to Take the Free BGR Assessment</h3>
           <p className="mt-2 text-sm leading-6 text-muted-foreground">Use your phone camera to scan the QR code and complete the free Business Growth Readiness assessment.</p>
-          <div className="mt-6 inline-block bg-background p-4 ring-1 ring-border"><img src={bgrQr.url} alt="QR code to take the free Asihwebe Business Growth Readiness / BGR Index assessment." width={400} height={403} className="h-auto w-56 sm:w-64" /></div>
+          <div className="mt-6 inline-block bg-background p-4 ring-1 ring-border"><img src={bgrQr.url} alt="QR code to take the free Asihwebe Business Growth Readiness / BGR Index assessment." width={512} height={512} className="h-auto w-56 sm:w-64" /></div>
         </div>
         <div className="flex flex-col border border-border bg-muted p-6 md:p-8">
           <p className="text-xs font-bold text-brand-orange">OPTION 2</p>
