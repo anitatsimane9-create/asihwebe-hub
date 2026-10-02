@@ -12,7 +12,7 @@ import phakamaMarketplaceLogo from "@/assets/phakama-marketplace-logo.png.asset.
 
 const icons=[Landmark,Building2,Network,Store,School,Network,Users];
 const ecosystemPartners:EcosystemPartner[]=[
-  {name:"Rekify",logo:rekifyLogo.url},
+  {name:"Rekify",logo:rekifyLogo.url,logoClassName:"scale-75"},
   {name:"Purple Blaq Media",logo:purpleBlaqMediaLogo.url},
   {name:"My Spaza",logo:mySpazaLogo.url},
   {name:"Teka Tako Ngwane Institute",logo:tekaTakoLogo.url},
