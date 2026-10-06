@@ -1,7 +1,7 @@
 import deonPhoto from "@/assets/deon-ncwane.jpeg.asset.json";
 import anitaPhoto from "@/assets/anita-tsimane.png.asset.json";
 import sthembisoPhoto from "@/assets/sthembiso-langa.jpg.asset.json";
-import elroyAvatar from "@/assets/elroy-avatar.jpg";
+import elroyAvatar from "@/assets/elroy-avatar.png";
 import { BriefcaseBusiness, Cpu, GraduationCap, MapPinned, type LucideIcon } from "lucide-react";
 
 export type Programme = { title: string; description: string; icon: LucideIcon };
